@@ -1,7 +1,6 @@
-import java.util.Objects;
 import java.util.regex.Pattern;
 
-public abstract class Pessoa {
+public abstract class Pessoa implements Autenticavel {
     private int id;
     private String nome;
     private String email;

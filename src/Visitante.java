@@ -1,4 +1,4 @@
-public class Visitante extends Pessoa implements Autenticavel {
+public class Visitante extends Pessoa {
 
     public Visitante(int id, String nome, String email, String senha) {
         super(id, nome, email, senha);

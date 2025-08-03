@@ -1,4 +1,4 @@
-public class Administrador extends Pessoa implements Autenticavel {
+public class Administrador extends Pessoa {
 
     public Administrador(int id, String nome, String email, String senha) {
         super(id, nome, email, senha);
