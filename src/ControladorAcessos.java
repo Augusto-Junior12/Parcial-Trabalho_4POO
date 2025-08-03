@@ -32,7 +32,7 @@ public class ControladorAcessos {
                     case "VISITANTE": p = new Visitante(id, nome, email, senha); break;
                     case "FUNCIONARIO": p = new Funcionario(id, nome, email, senha); break;
                     case "GERENTE": p = new Gerente(id, nome, email, senha); break;
-                    case "ADMINISTRADOR": p = new Administrador(id, nome, email, senha); break;
+                    case "ADMIN": p = new Administrador(id, nome, email, senha); break;
                     default: throw new IllegalArgumentException("Cargo inválido: " + cargo);
                 }
                 pessoas.put(id, p); // salva no hashmap
@@ -65,7 +65,7 @@ public class ControladorAcessos {
             Pessoa p = pessoas.get(idPessoaint);
             AreaRestrita nomeArea = areas.get(area);
 
-            if (p == null || area == null) {
+            if (p == null || nomeArea == null) {
                 System.out.println("Pessoa ou área não encontrada.");
                 return;
             }

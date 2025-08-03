@@ -1,1 +1,6 @@
 === RELATÓRIO DE ACESSOS ===
+Registro de Acesso -> ID Pessoa: 1 | Área: Auditório | Acesso: Permitido | Data/Horário=02/08/2025 21:39:35
+Registro de Acesso -> ID Pessoa: 1 | Área: Lab 02 | Acesso: Negado | Data/Horário=02/08/2025 21:39:35
+Registro de Acesso -> ID Pessoa: 2 | Área: Sala de Reunião | Acesso: Negado | Data/Horário=02/08/2025 21:39:35
+Registro de Acesso -> ID Pessoa: 3 | Área: Lab 02 | Acesso: Permitido | Data/Horário=02/08/2025 21:39:35
+Registro de Acesso -> ID Pessoa: 4 | Área: Lab 02 | Acesso: Permitido | Data/Horário=02/08/2025 21:39:35
